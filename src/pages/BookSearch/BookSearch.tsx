@@ -18,7 +18,6 @@ export default function BookSearch(): JSX.Element {
                 .then((response) => response.json())
                 .then((data) => data.docs.slice(0, 10))
                 .then((docs) => {
-                    console.log('keys: ', Object.keys(docs[0]))
                     setResults(docs)
                     setResultsAmount(docs.length)
                 })
@@ -30,10 +29,7 @@ export default function BookSearch(): JSX.Element {
             setResultsAmount(0)
         }
     }, [debouncedSearchTerm])
-
-    console.log(results)
-
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    
     const booksList = results.map((book: Book) => {
         return <BookItem key={book.key} book={book} />
     })
