@@ -1,0 +1,16 @@
+.about-site {
+    background: rgb(220,220,220);
+    background: linear-gradient(308deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 50%); 
+    border-radius: .5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.about-site__byte5 {
+    font-family: 'DaysOne', Arial, Helvetica, sans-serif;
+    color: var(--blue);
+}
+
+.about-site p {
+    
+}

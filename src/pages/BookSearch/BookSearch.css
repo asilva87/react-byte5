@@ -1,0 +1,66 @@
+fieldset {
+    font-size: 0.75rem;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    border-radius: 0.5rem;
+    border: 1px solid var(--dark-blue);
+    margin-top: 1rem;
+    display: flex;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+    color: var(--dark-blue);
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+input:focus {
+    outline: none;
+}
+
+.book-results {
+    color: var(--red);
+    margin: 1rem 0 1rem .5rem;
+    font-family: 'DaysOne', Arial, Helvetica, sans-serif;
+}
+
+.book-results__header {
+    display: flex;
+    border-radius: .5rem;
+    color: var(--red);
+    /* border: 1px solid var(--dark-blue); */
+    font-family: 'DaysOne', Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.book-results__header__item{
+    flex: 1;
+    margin: .5rem;
+}
+
+select {
+    border: none;
+    border-radius: .2em;
+    background-color: white;
+    color: var(--dark-blue);
+}
+
+::-webkit-input-placeholder {
+    /* WebKit browsers */
+    color: transparent;
+}
+:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: transparent;
+    opacity: 1;
+}
+::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: transparent;
+    opacity: 1;
+}
+:-ms-input-placeholder {
+    /* Internet Explorer 10+ */
+    color: transparent;
+}

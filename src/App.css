@@ -1,0 +1,24 @@
+.App {
+    /* Account for the top and down margins */
+    height: calc(100vh - 5rem);
+    /* Account for the left and right margins */
+    width: calc(100vw - 5rem);
+    border-radius: 1rem;
+    padding: 2rem;
+    background: rgb(220, 220, 220);
+    background: linear-gradient(
+        180deg,
+        rgba(220, 220, 220, 1) 0%,
+        rgba(255, 255, 255, 1) 50%,
+        rgba(220, 220, 220, 1) 100%
+    );
+    /* margin: 1rem; */
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: var(--dark-blue);
+}

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DaysOne';
+    src: url('/src/assets/fonts/DaysOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('/src/assets/fonts/Avenir-Next-LT-Pro-Regular.otf');
+}
+
+:root {
+    --red: rgb(234, 81, 114);
+    --blue: rgb(0, 123, 255);
+    --dark-blue: rgb(0, 75, 115);
+}
+
+body {
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
+    color: var(--dark-blue);
+}
