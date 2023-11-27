@@ -8,6 +8,8 @@ export default function Home(): JSX.Element {
                 <span className="about-site__byte5">byte5</span>. This time,
                 written in <strong>React</strong>. It uses API calls and hooks.
                 It is similar to the task assigned to me during the interview.
+                It's styling is loosely based on <span className="about-site__byte5">byte5</span>'s
+                own style.
             </p>
             <p>
                 It has been published using <strong>AWS S3</strong>.
