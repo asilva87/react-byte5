@@ -45,22 +45,3 @@ select {
     background-color: white;
     color: var(--dark-blue);
 }
-
-::-webkit-input-placeholder {
-    /* WebKit browsers */
-    color: transparent;
-}
-:-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    color: transparent;
-    opacity: 1;
-}
-::-moz-placeholder {
-    /* Mozilla Firefox 19+ */
-    color: transparent;
-    opacity: 1;
-}
-:-ms-input-placeholder {
-    /* Internet Explorer 10+ */
-    color: transparent;
-}
