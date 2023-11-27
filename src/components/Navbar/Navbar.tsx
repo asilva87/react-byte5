@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 import './Navbar.css'
 
 export default function Navbar(): JSX.Element {
@@ -6,10 +6,14 @@ export default function Navbar(): JSX.Element {
         <div className="navbar">
             <div>react-byte5</div>
             <div className="navbar__btn">
-                <Link to="/">Home</Link>
+                <NavLink to="/" style={({ isActive }) => ({ color: isActive ? '#ea5172' : '' })}>
+                    Home
+                </NavLink>
             </div>
             <div className="navbar__btn">
-                <Link to="/book-search">Book Search</Link>
+                <NavLink to="/book-search" style={({ isActive }) => ({ color: isActive ? '#ea5172' : '' })}>
+                    Book Search
+                </NavLink>
             </div>
         </div>
     )
