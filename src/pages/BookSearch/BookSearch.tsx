@@ -40,7 +40,7 @@ export default function BookSearch(): JSX.Element {
                 <legend>Search</legend>
                 <input
                     type="text"
-                    placeholder="Search..."
+                    placeholder="Search a book by title using the OpenLibrary API..."
                     value={searchTerm}
                     onChange={(e) => setSearchTerm(e.target.value)}
                 />
