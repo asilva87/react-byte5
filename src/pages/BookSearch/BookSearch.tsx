@@ -29,7 +29,7 @@ export default function BookSearch(): JSX.Element {
             setResultsAmount(0)
         }
     }, [debouncedSearchTerm])
-    
+
     const booksList = results.map((book: Book) => {
         return <BookItem key={book.key} book={book} />
     })
@@ -48,14 +48,13 @@ export default function BookSearch(): JSX.Element {
 
             {results.length > 0 && (
                 <>
-                    <div className='book-results'>Results: {resultsAmount} {resultsAmount === 10 && '(limited to 10)'}</div>
+                    <div className="book-results">
+                        Results: {resultsAmount}{' '}
+                        {resultsAmount === 10 && '(limited to 10)'}
+                    </div>
                     <div className="book-results__header">
-                        <div className="book-results__header__item">
-                            Title
-                        </div>
-                        <div className="book-results__header__item">
-                            Author
-                        </div>
+                        <div className="book-results__header__item">Title</div>
+                        <div className="book-results__header__item">Author</div>
                         <div className="book-results__header__item">
                             First published in
                         </div>
@@ -63,9 +62,7 @@ export default function BookSearch(): JSX.Element {
                 </>
             )}
 
-            {!results.length && (
-                <div className='book-results'>No results</div>
-            )}
+            {!results.length && <div className="book-results">No results</div>}
             {booksList}
         </div>
     )

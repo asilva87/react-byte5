@@ -6,12 +6,22 @@ export default function Navbar(): JSX.Element {
         <div className="navbar">
             <div>react-byte5</div>
             <div className="navbar__btn">
-                <NavLink to="/" style={({ isActive }) => ({ color: isActive ? '#ea5172' : '' })}>
+                <NavLink
+                    to="/"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#ea5172' : '',
+                    })}
+                >
                     Home
                 </NavLink>
             </div>
             <div className="navbar__btn">
-                <NavLink to="/book-search" style={({ isActive }) => ({ color: isActive ? '#ea5172' : '' })}>
+                <NavLink
+                    to="/book-search"
+                    style={({ isActive }) => ({
+                        color: isActive ? '#ea5172' : '',
+                    })}
+                >
                     Book Search
                 </NavLink>
             </div>

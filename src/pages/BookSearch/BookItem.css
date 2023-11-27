@@ -1,11 +1,15 @@
 .book-item {
     display: flex;
-    margin: .5rem 0;
+    margin: 0.5rem 0;
     color: var(--dark-blue);
     border: 1px solid transparent;
-    border-radius: .5rem;
-    background: rgb(220,220,220);
-    background: linear-gradient(308deg, rgba(220,220,220,1) 0%, rgba(255,255,255,1) 50%); 
+    border-radius: 0.5rem;
+    background: rgb(220, 220, 220);
+    background: linear-gradient(
+        308deg,
+        rgba(220, 220, 220, 1) 0%,
+        rgba(255, 255, 255, 1) 50%
+    );
 }
 
 .book-item:hover {
@@ -15,5 +19,5 @@
 
 .book-item__field {
     flex: 1;
-    padding: .5rem .5rem .2rem .5rem;
+    padding: 0.5rem 0.5rem 0.2rem 0.5rem;
 }

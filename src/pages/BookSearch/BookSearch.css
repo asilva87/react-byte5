@@ -21,27 +21,27 @@ input:focus {
 
 .book-results {
     color: var(--red);
-    margin: 1rem 0 1rem .5rem;
+    margin: 1rem 0 1rem 0.5rem;
     font-family: 'DaysOne', Arial, Helvetica, sans-serif;
 }
 
 .book-results__header {
     display: flex;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     color: var(--red);
     /* border: 1px solid var(--dark-blue); */
     font-family: 'DaysOne', Arial, Helvetica, sans-serif;
     background-color: white;
 }
 
-.book-results__header__item{
+.book-results__header__item {
     flex: 1;
-    margin: .5rem;
+    margin: 0.5rem;
 }
 
 select {
     border: none;
-    border-radius: .2em;
+    border-radius: 0.2em;
     background-color: white;
     color: var(--dark-blue);
 }
